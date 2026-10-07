@@ -34,11 +34,14 @@
 
 | Project | Description | Tech |
 | --- | --- | --- |
-| [Ask Your DB](https://github.com/wildensnz/ask-your-db) | Text-to-SQL agent: ask questions in plain language and get answers as tables or charts. Generated SQL is validated and runs read-only. | .NET 8 · Claude API · Tool calling · PostgreSQL · Next.js |
-| [.NET MCP Server](https://github.com/wildensnz/dotnet-mcp-server) | Model Context Protocol server in C# that exposes a business API as tools any MCP client (like Claude) can use. | .NET 8 · MCP SDK · EF Core |
+| [Ask Your DB](https://github.com/wildensnz/ask-your-db) | Text-to-SQL agent: ask questions in plain language and get answers as tables or charts. Generated SQL is validated and runs read-only. | Next.js · TypeScript · Claude API · Tool calling · PostgreSQL |
+| [MCP Server](https://github.com/wildensnz/mcp-server) | Model Context Protocol server that exposes a business API as tools any MCP client (like Claude) can use. | TypeScript · Node.js · MCP SDK · PostgreSQL |
 | [DR Invoice Extractor](https://github.com/wildensnz/dr-invoice-extractor) | Turns photos and PDFs of Dominican invoices into structured data (RNC, NCF, ITBIS, line items) with a review screen and an accuracy eval suite. | Next.js · TypeScript · Claude Vision · Structured outputs |
-| [MapGEO](https://github.com/wildensnz/map-geo) | Batch geocoding of customer addresses exported from an ERP, turning free-text Dominican addresses into coordinates for map-based sales and route planning. | TypeScript · Geocoding APIs |
-| [Multi-Vendor E-Commerce](https://github.com/wildensnz/multi-ecommerce) | Multi-tenant marketplace where merchants manage their own stores and customers check out across stores in one order. Stripe payments and webhooks. | Next.js · tRPC · MongoDB · Payload CMS · Stripe |## 🧠 Currently exploring
+| [MapGEO](https://github.com/wildensnz/map-geo) | Multi-tenant field CRM for sales teams built on the ADM Cloud ERP: customer map with clustering and sales and aging overlays, plus customers, quotes, orders and reports. Web app and iOS/Android app, 1,900+ automated tests and CI. | React 19 · TypeScript · Node.js · PostgreSQL · Drizzle · Google Maps · Capacitor |
+| [Multi-Vendor E-Commerce](https://github.com/wildensnz/multi-ecommerce) | Multi-tenant marketplace where merchants manage their own stores and customers check out across stores in one order. Stripe payments and webhooks. | Next.js · tRPC · MongoDB · Payload CMS · Stripe |
+| [CoreAcademy](https://github.com/wildensnz/CoreAcademy) | REST API for courses, instructors and grades with Clean Architecture, CQRS, JWT roles and policies, and Swagger docs. | ASP.NET Core · EF Core · MediatR · SQL Server |
+
+## 🧠 Currently exploring
 
 - Agents that operate on ERP data with permissions, guardrails and human approval.
 - Evaluating LLM apps: evals, tracing, and cost and latency trade-offs.
